@@ -70,12 +70,12 @@
  */
 
 //非常简单的mixin(...)例子
-function mixin(sourceObj,targetObj) {
-    for (var key in sourceObj) {
-        //只会在不存在的情况下复制
-        if(!(key in targetObj)){
-            targetObj[key] = sourceObj[key];
-        }
-    }
-    return targetObj;
-}
+// function mixin(sourceObj,targetObj) {
+//     for (var key in sourceObj) {
+//         //只会在不存在的情况下复制
+//         if(!(key in targetObj)){
+//             targetObj[key] = sourceObj[key];
+//         }
+//     }
+//     return targetObj;
+// }
